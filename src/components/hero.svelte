@@ -13,7 +13,7 @@
         Full-Stack Web3 Developer, DevOps Engineer, Infrastructure and AI
         Engineer
       </h2>
-      <p class="font-medium text-slate-400 mb-10 leading-relaxed">
+      <p class="font-medium text-slate-500 mb-10 leading-relaxed">
         An ordinary people who have interest with Technology, Space and History.
       </p>
       <a
