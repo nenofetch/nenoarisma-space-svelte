@@ -24,6 +24,7 @@
       <div class="flex items-center">
         <!-- Instagram -->
         <a
+          aria-label="Instagram"
           href="https://instagram.com/nenoarisma"
           target="_blank"
           class="w-9 h-9 mr-3 rounded-full flex items-center justify-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white"
@@ -32,6 +33,7 @@
         </a>
         <!-- Github -->
         <a
+          aria-label="Github"
           href="https://github.com/nenofetch"
           target="_blank"
           class="w-9 h-9 mr-3 rounded-full flex items-center justify-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white"
@@ -40,6 +42,7 @@
         </a>
         <!-- Email -->
         <a
+          aria-label="Email"
           href="mailto:nenoarisma@gmail.com"
           target="_blank"
           class="w-9 h-9 mr-3 rounded-full flex items-center justify-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white"
@@ -48,6 +51,7 @@
         </a>
         <!-- LinkedIn -->
         <a
+          aria-label="LinkedIn"
           href="https://linkedin.com/in/nenoarisma"
           target="_blank"
           class="w-9 h-9 mr-3 rounded-full flex items-center justify-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white"
