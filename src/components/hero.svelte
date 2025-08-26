@@ -1,4 +1,6 @@
-<script lang="ts"></script>
+<script lang="ts">
+import neno from '../assets/img/neno.webp'
+</script>
 
 <div class="container">
   <div class="flex flex-wrap">
@@ -26,7 +28,7 @@
     <div class="w-full self-end px-4 lg:w-1/2">
       <div class="mt-10 relative lg:mt-9 lg:right-0">
         <img
-          src="https://avatars.githubusercontent.com/u/22952560?v=4"
+         src={neno} 
           alt="My Profile"
           class="max-w-full mx-auto rounded-full object-cover"
         />
