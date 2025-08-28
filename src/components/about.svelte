@@ -6,7 +6,7 @@
   <div class="flex flex-wrap">
     <div class="w-full px-4 mb-10 lg:w-1/2">
       <h4 class="font-bold uppercase text-primary text-lg mb-3">About Me</h4>
-      <h2 class="font-bold text-slate-900 text-3xl mb-5 max-w-md lg:text-4xl ">
+      <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl">
         I am a passionate developer with a love for creating innovative
         solutions.
       </h2>
@@ -16,7 +16,7 @@
       </p>
     </div>
     <div class="w-full px-4 lg:w-1/2 lg:pt-10">
-      <h3 class="font-semibold text-slate-900 text-2xl mb-4 lg:text-3xl">Let's Connect</h3>
+      <h3 class="font-semibold text-dark text-2xl mb-4 lg:text-3xl">Let's Connect</h3>
       <p class="font-medium text-base text-slate-500 mb-6 lg:text-lg">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut,
         consectetur.

@@ -7,7 +7,7 @@ import neno from '../assets/img/neno.webp'
     <div class="w-full self-center px-4 lg:w-1/2">
       <h1 class="text-base font-semibold text-primary lg:text-2xl">
         Hi 👋, <span
-          class="block font-bold text-slate-900 text-4xl mt-1 lg:text-5xl"
+          class="block font-bold text-dark text-4xl mt-1 lg:text-5xl"
           >Neno Arisma</span
         >
       </h1>
