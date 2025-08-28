@@ -1,38 +1,41 @@
 <script lang="ts">
-import neno from '../assets/img/neno.webp'
+  import neno from "../assets/img/neno.webp";
 </script>
 
-<div class="container">
-  <div class="flex flex-wrap">
-    <div class="w-full self-center px-4 lg:w-1/2">
-      <h1 class="text-base font-semibold text-primary lg:text-2xl">
-        Hi 👋, <span
-          class="block font-bold text-dark text-4xl mt-1 lg:text-5xl"
-          >Neno Arisma</span
+<section id="hero" class="pt-36">
+  <div class="container">
+    <div class="flex flex-wrap">
+      <div class="w-full self-center px-4 lg:w-1/2">
+        <h1 class="text-base font-semibold text-primary lg:text-2xl">
+          Hi 👋, <span
+            class="block font-bold text-dark text-4xl mt-1 lg:text-5xl"
+            >Neno Arisma</span
+          >
+        </h1>
+        <h2 class="text-slate-500 font-medium text-lg mb-5 lg:text-2xl">
+          Full-Stack Web3 Developer, DevOps Engineer, Infrastructure and AI
+          Engineer
+        </h2>
+        <p class="font-medium text-slate-500 mb-10 leading-relaxed">
+          An ordinary people who have interest with Technology, Space and
+          History.
+        </p>
+        <a
+          href="https://github.com/nenofetch"
+          class="bg-primary py-3 px-8 text-base font-semibold text-white hover:shadow-lg hover:opacity-80 rounded-full transition duration-300 ease-in-out"
+          >Contact Me</a
         >
-      </h1>
-      <h2 class="text-slate-500 font-medium text-lg mb-5 lg:text-2xl">
-        Full-Stack Web3 Developer, DevOps Engineer, Infrastructure and AI
-        Engineer
-      </h2>
-      <p class="font-medium text-slate-500 mb-10 leading-relaxed">
-        An ordinary people who have interest with Technology, Space and History.
-      </p>
-      <a
-        href="https://github.com/nenofetch"
-        class="bg-primary py-3 px-8 text-base font-semibold text-white hover:shadow-lg hover:opacity-80 rounded-full transition duration-300 ease-in-out"
-        >Contact Me</a
-      >
-    </div>
+      </div>
 
-    <div class="w-full self-end px-4 lg:w-1/2">
-      <div class="mt-10 relative lg:mt-9 lg:right-0">
-        <img
-         src={neno} 
-          alt="My Profile"
-          class="max-w-full mx-auto rounded-full object-cover"
-        />
+      <div class="w-full self-end px-4 lg:w-1/2">
+        <div class="mt-10 relative lg:mt-9 lg:right-0">
+          <img
+            src={neno}
+            alt="My Profile"
+            class="max-w-full mx-auto rounded-full object-cover"
+          />
+        </div>
       </div>
     </div>
   </div>
-</div>
+</section>
