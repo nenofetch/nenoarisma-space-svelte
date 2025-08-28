@@ -2,9 +2,38 @@
 
 @theme {
   --color-primary: oklch(0.746 0.16 232.661);
+  --color-dark: oklch(20.8% 0.042 265.755);
 }
 
 @utility container {
   margin-inline: auto;
   padding-inline: 2rem;
+}
+
+@layer components {
+  .hamburger-line {
+    width: 30px;
+    height: 2px;
+    margin-block: calc(var(--spacing) * 2);
+    display: block;
+    background-color: var(--color-slate-900);
+  }
+
+  .hamburger-active > span:nth-child(1) {
+    transform: rotate(45deg);
+  }
+
+  .hamburger-active > span:nth-child(2) {
+    --tw-scale-x: 0;
+    --tw-scale-y: 0;
+    scale: var(--tw-scale-x) var(--tw-scale-y);
+  }
+
+  .hamburger-active > span:nth-child(3) {
+    transform: rotate(-45deg);
+  }
+
+  .inset-shadow-nav {
+    box-shadow: inset 0 -1px 0 0 var(--color-slate-200);
+  }
 }
