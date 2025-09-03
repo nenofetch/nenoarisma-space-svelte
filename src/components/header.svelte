@@ -43,9 +43,7 @@
   <div class="container">
     <div class="flex items-center justify-between relative">
       <div class="px-4">
-        <a
-          href={baseUrl}
-          class="font-bold text-primary text-lg block py-6"
+        <a href={baseUrl} class="font-bold text-primary text-lg block py-6"
           >Neno Arisma Space's</a
         >
       </div>
@@ -56,18 +54,18 @@
           type="button"
           class="block absolute right-4 lg:hidden"
         >
-        <span
-    class="hamburger-line origin-top-left transition duration-300 ease-in-out"
-    class:rotate-45={isOpen}
-  ></span>
-  <span
-    class="hamburger-line transition duration-300 ease-in-out"
-    class:scale-0={isOpen}
-  ></span>
-  <span
-    class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"
-    class:-rotate-45={isOpen}
-  ></span>
+          <span
+            class="hamburger-line origin-top-left transition duration-300 ease-in-out"
+            class:rotate-45={isOpen}
+          ></span>
+          <span
+            class="hamburger-line transition duration-300 ease-in-out"
+            class:scale-0={isOpen}
+          ></span>
+          <span
+            class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"
+            class:-rotate-45={isOpen}
+          ></span>
         </button>
         <nav
           class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
