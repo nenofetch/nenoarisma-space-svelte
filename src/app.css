@@ -19,20 +19,6 @@
     background-color: var(--color-slate-900);
   }
 
-  .hamburger-active > span:nth-child(1) {
-    transform: rotate(45deg);
-  }
-
-  .hamburger-active > span:nth-child(2) {
-    --tw-scale-x: 0;
-    --tw-scale-y: 0;
-    scale: var(--tw-scale-x) var(--tw-scale-y);
-  }
-
-  .hamburger-active > span:nth-child(3) {
-    transform: rotate(-45deg);
-  }
-
   .inset-shadow-nav {
     box-shadow: inset 0 -1px 0 0 var(--color-slate-200);
   }
